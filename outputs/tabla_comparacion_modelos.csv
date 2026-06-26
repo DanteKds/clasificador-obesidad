@@ -1,0 +1,10 @@
+Modelo,Experimento,Accuracy,Precision macro,Recall macro,F1 macro
+XGBoost,Base,0.9645,0.9673,0.9627,0.9637
+SVM,Base,0.9574,0.9563,0.9565,0.9563
+Random Forest,Base,0.9456,0.9508,0.9435,0.9445
+Árbol de Decisión,Base,0.922,0.9238,0.918,0.9198
+Regresión Logística,Base,0.8794,0.8785,0.8786,0.8762
+KNN,Base,0.8274,0.8218,0.8231,0.8086
+XGBoost,PCA (14 comps),0.844,0.8429,0.8401,0.841
+XGBoost,TruncatedSVD (11 comps),0.8558,0.8535,0.8525,0.8528
+XGBoost,Feature Engineering (+5 attrs),0.9835,0.9839,0.9831,0.9834

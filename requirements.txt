@@ -1,0 +1,12 @@
+# requirements.txt — Mínimo para desplegar la app Streamlit en Streamlit Community Cloud.
+# Solo las librerías que importa app.py. Las versiones de scikit-learn y xgboost
+# DEBEN coincidir con las del entrenamiento para que mejor_modelo.pkl cargue bien.
+#
+# Para el entorno COMPLETO del proyecto (notebook, análisis, PPT, etc.)
+# ver requirements-full.txt
+streamlit==1.58.0
+pandas==3.0.3
+numpy==2.4.6
+scikit-learn==1.9.0
+xgboost==3.2.0
+joblib==1.5.3

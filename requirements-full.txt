@@ -1,0 +1,35 @@
+# Tarea Obesity — CRISP-DM (PRD v3) · Entorno oficial: venvAPP (Python 3.14)
+# Dependencias directas del proyecto. Para reproducibilidad exacta ver requirements-lock.txt
+#
+# Instalación desde cero:
+#   python -m venv venvAPP
+#   venvAPP\Scripts\python.exe -m pip install -r requirements.txt
+#   venvAPP\Scripts\python.exe -m ipykernel install --user --name venvapp-obesity --display-name "Python (venvAPP obesity)"
+#
+# IMPORTANTE:
+#   - venvAPP es el único entorno virtual oficial del proyecto.
+#   - No usar .venv: fue reemplazado para evitar ambigüedad al abrir notebooks/scripts.
+#   - En VS Code/Jupyter seleccionar el kernel "Python (venvAPP obesity)".
+
+# --- Núcleo de análisis de datos / ML ---
+numpy==2.4.6
+pandas==3.0.3
+scikit-learn==1.9.0
+scipy==1.17.1
+xgboost==3.2.0
+mlxtend==0.25.0
+joblib==1.5.3
+
+# --- Visualización ---
+matplotlib==3.10.9
+seaborn==0.13.2
+
+# --- Notebook (generación y ejecución headless) ---
+nbformat==5.10.4
+nbconvert==7.17.1
+nbclient==0.11.0
+ipykernel==7.3.0
+
+# --- Presentación y backoffice opcional ---
+python-pptx==1.0.2
+streamlit==1.58.0

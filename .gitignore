@@ -1,0 +1,25 @@
+# Entornos virtuales locales
+.venv/
+venv/
+env/
+venvAPP/
+
+# Cachés de Python / notebooks
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Salidas locales regenerables — se ignoran SALVO las que la app Streamlit
+# necesita en el deploy (modelo + tablas/imagen de la pestaña de resultados).
+outputs/*
+!outputs/09_confusion_matrix.png
+!outputs/tabla_comparacion_modelos.csv
+!outputs/reporte_clasificacion_completo.csv
+!outputs/tabla_importancia_atributos_v3.csv
+
+models/*
+!models/mejor_modelo.pkl
+!models/label_encoder.pkl
+
+# Configuración local de herramientas
+.claude/settings.local.json

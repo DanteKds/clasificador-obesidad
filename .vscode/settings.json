@@ -1,0 +1,10 @@
+{
+  "python.defaultInterpreterPath": "${workspaceFolder}\\venvAPP\\Scripts\\python.exe",
+  "python.terminal.activateEnvironment": true,
+  "black-formatter.interpreter": [
+    "${workspaceFolder}\\venvAPP\\Scripts\\python.exe"
+  ],
+  "jupyter.kernels.trusted": [
+    "venvapp-obesity"
+  ]
+}

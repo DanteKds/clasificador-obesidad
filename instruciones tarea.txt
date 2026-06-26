@@ -1,0 +1,57 @@
+
+
+### **ACTIVIDAD PARA LA CASA**
+
+**Tarea: Análisis de datos usando métodos de ciencia de datos**
+
+**Objetivo:** Aplicar algoritmos de agrupamiento, clasificación y asociación para extraer información desde datos ubicados en **UCI Machine Learning Repository**. El docente dará un listado con los datos posibles de usar. Puede usar la IA.
+
+**Actividades:**
+
+1. Grupos de 2 personas. Indique los datos seleccionados.
+2. Aplicar un algoritmo de agrupamiento: Justifique el tipo de Cluster seleccionado, el número de Cluster propuestos e interprete cada grupo.
+3. Aplicar algoritmos de clasificación: Determinar qué algoritmo tiene mejores predicciones con datos de testeo. Indique mejoras que podría realizar a futuro a sus datos o proceso para mejorar los indicadores. ¡Para ello, asesórese con la IA!.
+4. Aplicar el algoritmo FP-Growth, para descubrir reglas de asociación entre los datos. Expl[ique] reglas con mejores indicadores y 6 reglas novedosas. No olvide medir Lift.
+5. Suba al Blackboard, una ppt de máximo 15 páginas, que resuma el trabajo realizado para presentarlo en la próxima clase.
+6. Usar metodo Crisp - dm 
+
+
+
+
+datos selecionados : 6. Estimation of Obesity Levels Based On Eating Habits and Physical Condition
+El dataset Estimation of Obesity Levels Based On Eating Habits and Physical
+Condition contiene 2.111 registros de personas de México, Perú y Colombia, con 17 atributos
+que describen sexo, edad, talla, peso, antecedentes familiares de sobrepeso, hábitos
+alimentarios (frecuencia de comida hipercalórica, consumo de verduras, número de comidas,
+snacks entre comidas), tabaquismo, actividad física y uso de transporte, entre otros. La
+variable objetivo NObesity clasifica a cada individuo en siete niveles: Insufficient Weight,
+Normal Weight, Overweight Level I y II, y Obesity Type I, II y III, lo que configura un problema de
+clasificación multiclase que también puede abordarse como regresión ordinal o clustering de
+perfiles de riesgo.
+El artículo introductorio señalado en UCI es: Mendoza Palechor, F., & De la Hoz Manotas, A.
+(2019). “Dataset for estimation of obesity levels based on eating habits and physical condition
+in individuals from Colombia, Peru and Mexico”, publicado en Data in Brief.
+https://archive.ics.uci.edu/dataset/544/estimation+of+obesity+levels+based+on+eating+habi
+ts+and+physical+condition
+
+Taller de aplicaciones
+Magister en Data science
+Facultad de Ingeniería
+Docente: Dr. Mauricio Sepúlveda 
+Alumno Dante Gil Zenteno
+
+
+
+ Debe incluir de ser necesario.
+Clase 1 (29/Mayo/2026 Viernes 16:30-21:45)
+• Métodos usados para la extracción de conocimiento:
+• Agrupamiento
+• Regresión
+• Clasificación
+• Asociación
+Clase 2 (5/Junio/2026 Viernes 16:30-21:45)
+• Planificación del proyecto
+• Recolección de la información
+• Procesamiento de la información
+
+
